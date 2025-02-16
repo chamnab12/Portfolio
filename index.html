@@ -49,7 +49,7 @@
                 </button>
             </div>
             <div class="mt-12 lg:px-0 px-5">
-                <img class="w-full" src="/image/5a2e5b21d2f660868a482265cfa4d967-removebg-preview.png" alt="">
+                <img class="w-full" src="https://i.pinimg.com/474x/b1/33/75/b13375a871915b1cd9b776a949089317.jpg" alt="">
             </div>
         </div>
    </div>
@@ -155,6 +155,14 @@
         </footer>
      </div>                                           
 
-    <script src="/js/index.js"></script>
+    <!-- <script src="/js/index.js"></script> -->
+     <script>
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+     </script>
 </body>
 </html>
